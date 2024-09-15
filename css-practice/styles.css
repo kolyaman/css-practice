@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    height: 100vh;
+    flex-direction: column;
+}
+.header {
+    background-color: rgb(221, 76, 221);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.main {
+    background-color: rgb(145, 145, 232);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    background-color: rgb(209, 224, 99);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.text {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
